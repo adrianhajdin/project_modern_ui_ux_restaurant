@@ -1,11 +1,11 @@
-.app__gallery {
+.gericht__gallery {
     flex-direction: row;
 
     background: var(--color-black);
     padding: 4rem 0 4rem 6rem;
 }
 
-.app__gallery-content {
+.gericht__gallery-content {
     flex: 1;
     display: flex;
     justify-content: center;
@@ -16,11 +16,11 @@
     padding-right: 2rem;
 }
 
-.app__gallery-content button {
+.gericht__gallery-content button {
     margin-top: 1rem;
 }
 
-.app__gallery-images {
+.gericht__gallery-images {
     flex: 1;
     display: flex;
     flex-direction: row;
@@ -28,7 +28,7 @@
     position: relative;
 }
 
-.app__gallery-images_container {
+.gericht__gallery-images_container {
     display: flex;
     flex-direction: row;
     width: max-content;
@@ -37,11 +37,11 @@
     scrollbar-width: none;  
 }
 
-.app__gallery-images_container::-webkit-scrollbar {
+.gericht__gallery-images_container::-webkit-scrollbar {
     display: none;
 }
 
-.app__gallery-images_card {
+.gericht__gallery-images_card {
     position: relative;
     min-width: 301px;
     height: 447px;
@@ -57,7 +57,7 @@
     cursor: pointer;
 }
 
-.app__gallery-images_card img {
+.gericht__gallery-images_card img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -65,15 +65,15 @@
     transition: .5s ease;
 }
 
-.app__gallery-images_card:hover img {
+.gericht__gallery-images_card:hover img {
     opacity: .35;
 }
 
-.app__gallery-images_card:hover .gallery__image-icon {
+.gericht__gallery-images_card:hover .gallery__image-icon {
     opacity: 1;
 }
 
-.app__gallery-images_arrows {
+.gericht__gallery-images_arrows {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -97,48 +97,48 @@
 }
 
 @media screen and (min-width: 2000px) {
-    .app__gallery-content button {
+    .gericht__gallery-content button {
         margin-top: 2rem;
     }
 
-    .app__gallery-content {
+    .gericht__gallery-content {
         min-width: 1000px;
         padding-right: 4rem;
     }
 
-    .app__gallery-images_card {
+    .gericht__gallery-images_card {
         min-width: 400px;
         height: 547px;
     }
 }
 
 @media screen and (max-width: 1150px) {
-    .app__gallery {
+    .gericht__gallery {
         flex-direction: column;
     }
 
-    .app__gallery-images {
+    .gericht__gallery-images {
         max-width: 100%;
         margin: 5rem 0;
     }
 }
 
 @media screen and (max-width: 850px) {
-    .app__gallery {
+    .gericht__gallery {
         padding: 4rem 0 4rem 4rem;
     }
 }
 
 @media screen and (max-width: 650px) {
-    .app__gallery {
+    .gericht__gallery {
         padding: 4rem 0 4rem 2rem;
     }  
     
-    .app__gallery-content {
+    .gericht__gallery-content {
         min-width: 100%;
     }
 
-    .app__gallery-images_card {
+    .gericht__gallery-images_card {
         min-width: 240px;
         height: 320px;
     }
