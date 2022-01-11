@@ -1,4 +1,4 @@
-.gericht__footerOverlay {
+.app__footerOverlay {
     width: 100%;
     height: 100%;
     z-index: -1;
@@ -8,11 +8,11 @@
     position: absolute;
 }
 
-.gericht__footerOverlay-black {
+.app__footerOverlay-black {
     height: 25%;
     background: var(--color-black);
 }
 
-.gericht__footerOverlay-img {
+.app__footerOverlay-img {
     height: 75%;
 }

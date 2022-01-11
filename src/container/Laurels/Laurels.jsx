@@ -5,9 +5,9 @@ import { images, data } from '../../constants';
 import './Laurels.css';
 
 const AwardCard = ({ award: { imgUrl, title, subtitle } }) => (
-  <div className="gericht__laurels_awards-card">
+  <div className="app__laurels_awards-card">
     <img src={imgUrl} alt="awards" />
-    <div className="gericht__laurels_awards-card_content">
+    <div className="app__laurels_awards-card_content">
       <p className="p__cormorant" style={{ color: '#DCCA87' }}>{title}</p>
       <p className="p__opensans">{subtitle}</p>
     </div>
@@ -15,17 +15,17 @@ const AwardCard = ({ award: { imgUrl, title, subtitle } }) => (
 );
 
 const Laurels = () => (
-  <div className="gericht__bg gericht__wrapper section__padding" id="awards">
-    <div className="gericht__wrapper_info">
+  <div className="app__bg app__wrapper section__padding" id="awards">
+    <div className="app__wrapper_info">
       <SubHeading title="Awards & recognition" />
       <h1 className="headtext__cormorant">Our Laurels</h1>
 
-      <div className="gericht__laurels_awards">
+      <div className="app__laurels_awards">
         {data.awards.map((award) => <AwardCard award={award} key={award.title} />)}
       </div>
     </div>
 
-    <div className="gericht__wrapper_img">
+    <div className="app__wrapper_img">
       <img src={images.laurels} alt="laurels_img" />
     </div>
   </div>

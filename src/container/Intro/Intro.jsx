@@ -9,7 +9,7 @@ const Intro = () => {
   const vidRef = React.useRef();
 
   return (
-    <div className="gericht__video">
+    <div className="app__video">
       <video
         ref={vidRef}
         src={meal}
@@ -18,9 +18,9 @@ const Intro = () => {
         controls={false}
         muted
       />
-      <div className="gericht__video-overlay flex__center">
+      <div className="app__video-overlay flex__center">
         <div
-          className="gericht__video-overlay_circle flex__center"
+          className="app__video-overlay_circle flex__center"
           onClick={() => {
             setPlayVideo(!playVideo);
             if (playVideo) {
