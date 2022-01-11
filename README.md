@@ -1,9 +1,20 @@
-# Gericht
+# Restaurant Landing Page
+### [Live Site](https://gericht.vercel.app)
 
-In the GPT3 project, I have used div and p tags to create a navigation bar. Traditionally, most people use ul tags. So the question is why do people use ul tags?
+![Restaurant Landing Page](https://i.ibb.co/5jxBKpw/image.png)
 
-The reason — web accessibility. But there is a debate on that too. Few handicapped people find the div and p tag combination better than traditional. Refer to the following article for more —
+## Stay up to date with new projects
+New major projects coming soon, subscribe to the mailing list to stay up to date https://resource.jsmasterypro.com/newsletter
 
-Article: [Navigation in lists: to be or not to be](https://css-tricks.com/navigation-in-lists-to-be-or-not-to-be/)
+## Introduction
+This is a code repository for the corresponding video tutorial. In this video, we're going to build a Modern UI/UX Restaurant Landing Page Website
 
-You can describe this point in the upcoming video. For me, the div and p tag combination is better. But for this project, I have worked ul tag combination.
+You might be wondering, what are the prerequisites for building such an amazing website? Don't worry, this course is completely beginner-friendly! We're going to start easy and them move to more complex topics. Every step of the way will be explained. Alongside building the website, you'll learn:
+
+- React Functional components and their reusability
+- React file and folder structure
+- Fundamental CSS properties to master flex & grid
+- Fundamentals of the CSS BEM Model
+- From soft and pleasant animations to complex gradients
+- Perfectly placed media queries for satisfactory responsiveness covering almost devices
+- And at the end you'll learn how to deploy your websites to extremely fast servers and give them a custom domain name.
