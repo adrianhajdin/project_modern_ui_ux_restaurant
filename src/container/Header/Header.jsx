@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { SubHeading } from '../../components';
-import { images } from '../../constant';
+import { images } from '../../constants';
 import './Header.css';
 
 const Header = () => (

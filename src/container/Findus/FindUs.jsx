@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { SubHeading } from '../../components';
-import { images } from '../../constant';
+import { images } from '../../constants';
 
 const FindUs = () => (
   <div className="gericht__bg gericht__wrapper section__padding" id="contact">

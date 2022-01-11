@@ -1,7 +1,7 @@
 import React from 'react';
 
-import { images } from '../../constant';
-import './Aboutus.css';
+import { images } from '../../constants';
+import './AboutUs.css';
 
 const AboutUs = () => (
   <div className="gericht__aboutus gericht__bg flex__center section__padding" id="about">
