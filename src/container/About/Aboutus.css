@@ -1,0 +1,81 @@
+.gericht__aboutus {
+    position: relative;
+}
+
+.gericht__aboutus-overlay {
+    position: absolute;
+    inset: 0;
+}
+
+.gericht__aboutus-overlay img {
+    width: 391px;
+    height: 415px;
+    z-index: 0;
+}
+
+.gericht__aboutus-content {
+    width: 100%;
+    z-index: 2;
+}
+
+.gericht__aboutus-content_about {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+
+    text-align: right;
+}
+
+.gericht__aboutus-content_knife {
+    margin: 2rem 4rem;
+}
+
+.gericht__aboutus-content_knife img {
+    height: 910px;
+}
+
+.gericht__aboutus-content_history {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+
+    text-align: left;
+}
+
+.gericht__aboutus-content_about p,
+.gericht__aboutus-content_history p {
+    margin: 2rem 0;
+    color: var(--color-grey);
+}
+
+@media screen and (min-width: 2000px) {
+    .gericht__aboutus-content_knife img {
+        height: 1110px;
+    }
+
+    .gericht__aboutus-content_about p,
+    .gericht__aboutus-content_history p {
+        margin: 4rem 0;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .gericht__aboutus-content {
+        flex-direction: column;
+    }
+
+    .gericht__aboutus-content_knife {
+        margin: 4rem 0;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .gericht__aboutus-overlay img {
+        width: 80%;
+        height: 320px;
+    }
+}

@@ -1,0 +1,35 @@
+.gericht__menuitem {
+    width: 100%;
+    margin: 1rem 0;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.gericht__menuitem-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gericht__menuitem-sub {
+    width: 100%;
+    margin-top: 0.2rem;
+}
+
+.gericht__menuitem-name {
+    flex: 1;
+}
+
+.gericht__menuitem-dash {
+    width: 90px;
+    height: 1px;
+    background: var(--color-golden);
+    margin: 0 1rem;
+}
+
+.gericht__menuitem-price {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
