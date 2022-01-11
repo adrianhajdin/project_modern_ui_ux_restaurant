@@ -8,7 +8,7 @@
   align-items: center;
 }
 
-.gericht__bg {
+.app__bg {
   background: url('./assets/bg.png');
   background-position: center;
   background-size: cover;
@@ -16,7 +16,7 @@
   background-attachment: fixed;
 }
 
-.gericht__wrapper {
+.app__wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -24,7 +24,7 @@
   min-height: 100vh;
 }
 
-.gericht__wrapper_info {
+.app__wrapper_info {
   flex: 1;
   width: 100%;
   display: flex;
@@ -33,7 +33,7 @@
   flex-direction: column;
 }
 
-.gericht__wrapper_img {
+.app__wrapper_img {
   flex: 1;
   width: 100%;
   display: flex;
@@ -43,12 +43,12 @@
   margin-left: 2rem;
 }
 
-.gericht__wrapper_img-reverse {
+.app__wrapper_img-reverse {
   justify-content: flex-start;
   margin-right: 2rem;
 }
 
-.gericht__wrapper_img img {
+.app__wrapper_img img {
   width: 80%;
 }
 
@@ -124,19 +124,19 @@
 }
 
 @media screen and (max-width: 1150px) {
-  .gericht__wrapper {
+  .app__wrapper {
     flex-direction: column;
   }
 
-  .gericht__wrapper_img {
+  .app__wrapper_img {
     margin: 5rem 0 0 0;
   }
 
-  .gericht__wrapper_img-reverse {
+  .app__wrapper_img-reverse {
     margin: 0 0 5rem 0;
   }
 
-  .gericht__wrapper_img img {
+  .app__wrapper_img img {
     width: 100%;
   }
 }

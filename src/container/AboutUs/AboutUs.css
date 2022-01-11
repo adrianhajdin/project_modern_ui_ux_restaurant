@@ -1,24 +1,24 @@
-.gericht__aboutus {
+.app__aboutus {
     position: relative;
 }
 
-.gericht__aboutus-overlay {
+.app__aboutus-overlay {
     position: absolute;
     inset: 0;
 }
 
-.gericht__aboutus-overlay img {
+.app__aboutus-overlay img {
     width: 391px;
     height: 415px;
     z-index: 0;
 }
 
-.gericht__aboutus-content {
+.app__aboutus-content {
     width: 100%;
     z-index: 2;
 }
 
-.gericht__aboutus-content_about {
+.app__aboutus-content_about {
     flex: 1;
     display: flex;
     justify-content: flex-end;
@@ -28,15 +28,15 @@
     text-align: right;
 }
 
-.gericht__aboutus-content_knife {
+.app__aboutus-content_knife {
     margin: 2rem 4rem;
 }
 
-.gericht__aboutus-content_knife img {
+.app__aboutus-content_knife img {
     height: 910px;
 }
 
-.gericht__aboutus-content_history {
+.app__aboutus-content_history {
     flex: 1;
     display: flex;
     justify-content: flex-start;
@@ -46,35 +46,35 @@
     text-align: left;
 }
 
-.gericht__aboutus-content_about p,
-.gericht__aboutus-content_history p {
+.app__aboutus-content_about p,
+.app__aboutus-content_history p {
     margin: 2rem 0;
     color: var(--color-grey);
 }
 
 @media screen and (min-width: 2000px) {
-    .gericht__aboutus-content_knife img {
+    .app__aboutus-content_knife img {
         height: 1110px;
     }
 
-    .gericht__aboutus-content_about p,
-    .gericht__aboutus-content_history p {
+    .app__aboutus-content_about p,
+    .app__aboutus-content_history p {
         margin: 4rem 0;
     }
 }
 
 @media screen and (max-width: 900px) {
-    .gericht__aboutus-content {
+    .app__aboutus-content {
         flex-direction: column;
     }
 
-    .gericht__aboutus-content_knife {
+    .app__aboutus-content_knife {
         margin: 4rem 0;
     }
 }
 
 @media screen and (max-width: 650px) {
-    .gericht__aboutus-overlay img {
+    .app__aboutus-overlay img {
         width: 80%;
         height: 320px;
     }
